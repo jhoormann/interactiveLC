@@ -97,6 +97,8 @@ astropy == 3.2.1
 
 scipy == 1.3.0
 
+Some older versions of matplotlib have issues with the text boxes used in the start up screen where, if a letter also corresponds to a matplotlib shortcut, the shortcut supersedes typing.  For example if you type 's' the save file window pops up.  If this happens to you just update your matplotlib installation and it should work. 
+
 # Reference
 If you are using this program please link to this github repository and cite the paper where this light curve extraction methodology was first presented. 
 
