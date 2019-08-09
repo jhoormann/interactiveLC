@@ -10,12 +10,15 @@ To run execute >> python visCalc.py.  You will then see the following screen whe
 This is the path and name of the file that lists the names of all the spectral data files you want to analyze.  You don't need to include the path to the data just the name of each file (ie Test_AGN.fits).
 
 ## Spectral Data Location
-This is the path to where you are keeping your data which includes all the data files listed in the above field.
+This is the path to where you are keeping your data which includes all the data listed in the file specified above.
 
 This program assumes the input spectra are saved in the fits format outputted after calibration and coadding obtained using [OzDES_calibSpec](https://github.com/jhoormann/OzDES_calibSpec).  These fits files are read in using the class defined in SpectralClass.py.  If you data is in a different form all you need to do is modify this class to handle your files.  As long as you don't change the overall class structure the rest of the code should work without issue.
 
 ## Output Data File
 The chosen windows for each AGN/emission line will be saved to the location/file specified in this field.
+
+## Output Figure Location
+You will have the option to save figures as you go, and they will be saved to the location provided here.  The figure names will be of the format 'output location + filename + line + version + # + .png' where the number iterates from 0 so you can save multiple figures for each AGN/line combination. 
 
 ## Max Window Shift
 This is how much in each direction you can shift the windows in each direction using sliders.  You may choose a large number if you want to try out a more distant continuum window but you may want a smaller number if you want finer control over where the window goes. For the line integration windows one bound will aways be the center of the emission line.  
