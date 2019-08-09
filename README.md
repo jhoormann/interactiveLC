@@ -38,6 +38,11 @@ Once you have modified the fields to your specifications click 'Analyze' to star
 ## Default Parameters
 The defaults for each field will allow you to analyze the example data provided here.  If your data is somewhere else and you don't want to change these everytime you run the code you can modify the defaults.  They are defined at the top of visLC.py.  Here you can also add in any other emission lines that you may be interested in.  
 
+# Using visLC
+
+![](outputData/exampleFigs/ChangeWin.png)
+
+
 # Run Requirements
 This code was tested using the following (as stated in requirements.txt)
 
