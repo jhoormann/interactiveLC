@@ -21,7 +21,7 @@ ID    Line    z    Flag    LineMin    LineMax    ContMin1    ContMax1    ContMin
 
 
 ## Output Figure Location
-You will have the option to save figures as you go, and they will be saved to the location provided here. 
+You will have the option to save figures as you go and they will be saved to the location provided here. 
 
 ## Max Window Shift
 This is how much in each direction you can shift the windows in each direction using sliders.  You may choose a large number if you want to try out a more distant continuum window but you may want a smaller number if you want finer control over where the window goes using the slider. For the line integration windows one bound will aways be the center of the emission line.  
@@ -47,8 +47,8 @@ Once you have provided the necessary input parameters you are ready to start ana
 
 ![](outputData/exampleFigs/ChangeWin.png)
 
-## Change Spectral Epoch
-The coadded spectrum is plotted by default.  However, you may want to plot each epoch individually, perhaps to determine why one value apppears to be an outlier or has particularly large error bars.  On the far left you have a series of buttons corresponding to each epoch.  Once you click on a specific night it will update the spectrum along with the black continuum model that the code calculate.  It will also highlight the corresponding light curve data point in red.  
+## View Spectral Epochs
+The coadded spectrum is plotted by default.  However, you may want to plot each epoch individually, perhaps to determine why one value apppears to be an outlier or has particularly large error bars.  On the far left you have a series of buttons corresponding to each epoch.  Once you click on a specific night it will update the spectrum along with the black continuum model that the code calculates.  It will also highlight the corresponding light curve data point in red.  
 
 ## Sliders
 You can change the location of the line/continuum windows using the sliders.  The color of the slider corresponds to the color of the line used to represent the windows on the spectrum plot.  Under each set of sliders is a reset button which will take you back to the default values. The amount you can move a window is given by the value you provided for Max Window Shift.
