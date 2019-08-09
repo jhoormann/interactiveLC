@@ -1,5 +1,5 @@
 # visLC
-A widget which allows you to play with the analysis choices made when generating emission line light curves from AGN spectral data to make informed decisions about which parameters to use.  After loading in your spectral data it will call the same functions used in [OzDES_makeLC](https://github.com/jhoormann/OzDES_makeLC) to make the emission light curve.  You can then interactivly play with the line integration windows, local continuum subtraction windows, and continuum uncertainty regions to determine how these choices impact the resulting light curve and uncertainties.  
+This is a widget which allows you to play with the analysis choices made when generating emission line light curves from AGN spectral data to make informed decisions about which parameters to use.  After loading in your spectral data it will call the same functions used in [OzDES_makeLC](https://github.com/jhoormann/OzDES_makeLC) to make the emission light curve.  You can then interactivly play with the line integration windows, local continuum subtraction windows, and continuum uncertainty regions to determine how these choices impact the resulting light curve and uncertainties.  
 
 # Starting visLC
 To run execute >> python visCalc.py.  You will then see the following screen where you can specify some initial parameters.
