@@ -73,7 +73,7 @@ Because calculating the errors are the most time consuming part of the analysis 
 The 'Save Fig' button will allow you to save the full figure (like those shown above).  The figure names will be of the format 'output location + AGN data filename + line + version + # + .png' where the number iterates from 0 so you can save multiple figures for each AGN/line combination. 
 
 ### Ignore
-Unfortunately you sometimes come across a source for which the data is of poor quality and not usable.  If you click 'Ignore' the data for this AGN/line combo will not be saved to the output file.  As soon as you start reanalyzing the data (playing with the sliders) the code will assume you changed your mind and will reset the 'Ignore' flag. 
+Unfortunately you sometimes come across a source for which the data is of poor quality and not usable.  If you click 'Ignore' the data for this AGN/line combo will not be saved to the output file.  As soon as you start reanalyzing the data (eg. playing with the sliders) the code will assume you changed your mind and will reset the 'Ignore' flag. 
 
 ### Flag
 Other times the data is alright but maybe you saw something that you want to be sure to look at again later.  You can mark those sources using the 'Flag' button.  This will set the flag keyword in the output file to 1.  
