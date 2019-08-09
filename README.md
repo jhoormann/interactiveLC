@@ -18,7 +18,7 @@ This program assumes the input spectra are saved in the fits format outputted af
 The chosen windows for each AGN/emission line will be saved to the location/file specified in this field.
 
 ## Output Figure Location
-You will have the option to save figures as you go, and they will be saved to the location provided here.  The figure names will be of the format 'output location + filename + line + version + # + .png' where the number iterates from 0 so you can save multiple figures for each AGN/line combination. 
+You will have the option to save figures as you go, and they will be saved to the location provided here.  The figure names will be of the format 'output location + AGN data filename + line + version + # + .png' where the number iterates from 0 so you can save multiple figures for each AGN/line combination. 
 
 ## Max Window Shift
 This is how much in each direction you can shift the windows in each direction using sliders.  You may choose a large number if you want to try out a more distant continuum window but you may want a smaller number if you want finer control over where the window goes. For the line integration windows one bound will aways be the center of the emission line.  
