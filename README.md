@@ -42,6 +42,8 @@ The defaults for each field will allow you to analyze the example data provided 
 
 ![](outputData/exampleFigs/ChangeWin.png)
 
+![](outputData/exampleFigs/ErrorBar.png)
+
 
 # Run Requirements
 This code was tested using the following (as stated in requirements.txt)
